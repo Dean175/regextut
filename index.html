@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AJAX TUT</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <header class="header clearfix">
+        <div class="logo-box">
+            <a href="/">
+                <img src="images/logo.svg" alt="logo image" width="50">
+            </a>
+        </div>
+        <div class="navigation-box clearfix">
+            <nav class="navbar">
+                <ul>
+                    <li><a class="link" href="#">About</a></li>
+                    <li><a class="link" href="#">Services</a></li>
+                    <li><a class="link" href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="login-box">
+                <a class="button" href="#" id="login-button"><i class="fas fa-power-off"></i></a>
+            </div>
+            <div class="login-form-box">
+                <div class="form-box clearfix">
+                    <form action="" method="GET" class="login-form">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <input type="text" name="pwd" id="pwd" placeholder="Password">
+                        <button type="submit" name="submit">Ok</button>
+                    </form>
+                    <div class="connect-box"><a href="#"><span class="icon connect"></span></a></div>
+                </div>
+                
+                <!-- <div class="login-form-links">
+                    <p><a href="">Je m'inscris!</a></p>
+                    <p><a href="">Mot de passe oublié?</a></p>
+                </div> -->
+            </div>
+        </div>
+    </header>
+    
+    <div id="demo">
+        <h2>Let AJAX change this text</h2>
+        <button type="button" onclick="loadDoc()">Change Content</button>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+/*---- Clearfix ------------*/
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*------------------------*/
+
+/*---- Default classes ------------*/
+body, html {
+    font-family: sans-serif;
+}
+
+.link {
+    font-size: 15px;
+    line-height: 1.1;
+    text-decoration: none;
+    color: crimson;
+}
+
+.link:hover,
+.link:focus {
+    text-decoration: underline;
+}
+
+.button {
+    font-size: 15px;
+    line-height: 1.1;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    line-height: 1.1;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    margin-bottom: 2px;
+    border: 1px solid #000;
+}
+
+button {
+    border: none;
+    background-color: #000;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+}
+
+/*------------------------*/
+
+.header {
+    background-color: #eee;
+    width: 90%;
+    margin: 1rem auto 0;
+    border-radius: 60px;
+}
+
+
+.logo-box {
+    float: left;
+    width: 150px;
+    margin: 8px 14px 5px;
+}
+
+.navigation-box {
+   float: right;
+   margin: 1.2em 2em 0;
+   position: relative;
+}
+
+.navigation-box .navbar,
+.navigation-box .login-box {
+    float: left;
+}
+
+.navigation-box .navbar {
+    margin: 4px 25px 0 0;
+}
+
+.navigation-box .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-box .navbar ul li {
+    display: inline-block;
+    padding: 0 1em;
+}
+
+/*--- Login form---*/
+.login-form-box {
+    background-color: #fff;
+    padding: 1em;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    position: absolute;
+    top: 2em;
+    display: none;
+}
+
+.login-form-box.show {
+    display: block;
+}
+/*-----------------*/
