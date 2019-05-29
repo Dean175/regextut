@@ -96,17 +96,36 @@ button {
     padding: 0 1em;
 }
 
-/*--- Login form---*/
+/*--- Login form - connection ---*/
 .login-form-box {
     background-color: #fff;
-    padding: 1em;
     box-shadow: 0 0 8px rgba(0,0,0,.1);
     position: absolute;
     top: 2em;
+    right: 0;
     display: none;
 }
 
 .login-form-box.show {
     display: block;
+}
+
+.form-box {
+    margin: 1em;
+}
+/*-----------------*/
+
+
+/*--- Login form - disconnection ---*/
+.userid {
+    background-color: #cacaca;
+    min-width: 192px;
+    padding: 1em;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.connected-box img {
+    width: 100%;
 }
 /*-----------------*/
